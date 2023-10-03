@@ -1,0 +1,23 @@
+{
+  "name": "trpo-khizhnyakov",
+  "version": "1.0.0",
+  "description": "new changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "npx http-server ./cpp/docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonVadimon/TRPO-LR2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DonVadimon/TRPO-LR2/issues"
+  },
+  "homepage": "https://github.com/DonVadimon/TRPO-LR2#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
