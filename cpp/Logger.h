@@ -2,7 +2,7 @@
 #include <iostream>
 
 /**
-    @file "Logger.h"
+    @file Logger.h
     @brief Логирует в консоль
     @author v.khizhnyakov
     @copyright BMSTU
@@ -22,17 +22,14 @@ private:
 
 public:
     /**
-    @file "Logger.h"
     @brief Конструктор по умолчанию
     */
     Logger();
     /**
-    @file "Logger.h"
     @brief Конструктор с префиксом логов
     */
     Logger(std::string prefix);
     /**
-    @file "Logger.h"
     @brief Залогировать информацию
     @param input что логнуть
     */

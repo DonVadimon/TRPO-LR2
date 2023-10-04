@@ -2,7 +2,7 @@
 #include "Logger.h"
 
 /**
-    @file "ChatService.h"
+    @file ChatService.h
     @brief Сервис для работы с сущностью "Чат"
     @author v.khizhnyakov
     @copyright BMSTU
@@ -20,20 +20,17 @@ class ChatService : PrismaService
 
 private:
     /**
-    @file "ChatService.h"
     @brief инстанс логгера
     */
     Logger logger;
 
 public:
     /**
-    @file "ChatService.h"
     @throws NotFoundException, ConnectionException
     @brief Конструктор по умолчанию
     */
     ChatService();
     /**
-    @file "ChatService.h"
     @param username никнейм пользователя, чьи чаты ищем
     @return список идентификаторов чатов пользователя
     @throws NotFoundException, ConnectionException
@@ -41,7 +38,6 @@ public:
     */
     std::string *getUserRooms(std::string username);
     /**
-    @file "ChatService.h"
     @brief Создать чат с именем roomName
     @param roomName имя чата, который надо создать
     @return идентификатор созданного чата
